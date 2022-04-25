@@ -1,7 +1,25 @@
 #about, #resume, #projects{
     color: #081b5f;
-}
-.navbar .navbar-nav .nav-link:hover {
+   
     
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #081b5f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ #projects .btn:hover, #contact .btn:hover{
+    cursor: pointer;
+     transition : 0.4s;
+     box-shadow : 0px 0px 1px 5px #0d60dd;
+     border-color: #0d60dd;
+  }
+  #home .btn-light:hover{
+    transition : 0.4s;
+    box-shadow : 0px 0px 1px 5px whitesmoke;
+    background-color : whitesmoke;
+    cursor : pointer;
     color: #081b5f;
   }
+ 
