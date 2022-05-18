@@ -25,3 +25,19 @@
  .footer{
      background-color: #256ad2;
  }
+
+ @media only screen and (max-width:992px){
+
+    .Myorder-1{
+        order: 1;
+        margin-bottom: 0px !important;
+      
+    }
+    .fa-long-arrow-left{
+     display: none;
+    }
+    .Myorder-2{
+        order: 2;
+    }
+     
+ }
